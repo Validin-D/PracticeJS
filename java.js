@@ -1,7 +1,7 @@
 
 console.log("here")
 const supabaseUrl = "https://xsgtgcajktmyhnqdvmwx.supabase.co"
-const supabaseAnonKey = 'sb_publishable_VjafgC6r-CHMwFqUP2bU0A_1M0X-XZI ' 
+const supabaseAnonKey = "sb_publishable_VjafgC6r-CHMwFqUP2bU0A_1M0X-XZI"
 // Truy cập trực tiếp qua hàm global do CDN cung cấp
  const supabaseCilent = window.supabase.createClient(supabaseUrl, supabaseAnonKey); 
 // Đăng ký tài khoản cho người dùng
